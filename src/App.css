@@ -1,0 +1,64 @@
+.App {
+  margin: 20px 300px;
+  padding: 10px;
+}
+
+.new-button{
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.row-input{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.column-input{
+  width: 20%;
+}
+
+.column-input input{
+  width: 90%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.delete-button{
+  width: 10%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.delete-button button{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(227, 6, 6);
+  color: white;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.grand-total{
+  margin-top: 50px;
+}
+
+.error{
+  margin-top: 2px;
+  background-color: rgba(255, 0, 0, 0.7);
+  color : white;
+  padding: 2px;
+  display: none;
+  border-radius: 2px;
+  font-size: 14px;
+  width: 100%;
+}
